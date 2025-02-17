@@ -11,11 +11,6 @@ const count = ref(0)
 <template>
 
 
-  <div class="card">
-
-  </div>
-
-  <p class="read-the-docs">Click on the Vite and Vue logos to learn more</p>
 </template>
 
 <style scoped>
