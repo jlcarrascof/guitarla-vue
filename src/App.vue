@@ -6,6 +6,9 @@
     <h1>{{ hello }}</h1>
 </template>
 
-<style scoped>
-
+<style>
+    h1 {
+        text-transform: uppercase;
+        color: red;
+    }
 </style>
