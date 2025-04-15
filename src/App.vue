@@ -1,5 +1,9 @@
 <script setup>
-    const hello = "Hello world"
+    import {ref, reactive} from 'vue'
+    const state = reactive({
+        guitarras: [1, 2, 3]
+    })
+    console.log(state.guitarras)
 </script>
 
 <template>
