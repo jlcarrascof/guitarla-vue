@@ -10,6 +10,7 @@
 
     onMounted(() => {
         guitarras.value = db
+        state.guitarras = db
     })
 
 </script>
