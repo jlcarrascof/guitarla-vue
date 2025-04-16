@@ -102,7 +102,7 @@
         <div class="row mt-5">
             <div v-for="guitarra in guitarras" class="col-md-6 col-lg-4 my-4 row align-items-center">
                 <div class="col-4">
-                    <img class="img-fluid" src=`/img/${{guitarra.imagen}}` alt="imagen guitarra">
+                    <img class="img-fluid" src="" alt="imagen guitarra">
                 </div>
                 <div class="col-8">
                     <h3 class="text-black fs-4 fw-bold text-uppercase">{{guitarra.nombre}}</h3>
