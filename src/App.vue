@@ -1,6 +1,7 @@
 <script setup>
     import {ref, reactive, onMounted} from 'vue'
     import { db } from './data/guitarras'
+    import Guitarra from './components/Guitarra.vue'
 
     const guitarras = ref([])
 
@@ -100,7 +101,9 @@
         <h2 class="text-center">Nuestra Colección</h2>
 
         <div class="row mt-5">
-
+            <Guitarra
+                v-for="guitarra in guitarras"
+            />
         </div>
     </main>
 
