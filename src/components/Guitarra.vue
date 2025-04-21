@@ -1,5 +1,10 @@
 <script setup>
-
+    const props = defineProps({
+        guitarra: {
+            type: Object,
+            required: true
+        }
+    })
 </script>
 
 <template>
