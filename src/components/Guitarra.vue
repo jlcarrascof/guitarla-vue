@@ -9,6 +9,10 @@
             required: true
         }
     })
+
+    const incrementar = () => {
+        numero.value++
+    }
 </script>
 
 <template>
@@ -27,7 +31,7 @@
             <button
                 type="button"
                 class="btn btn-dark w-100"
-                @click="numero++"
+                @click="incrementar"
             >Agregar al Carrito</button>
         </div>
     </div><!-- FIN GUITARRA -->
