@@ -10,7 +10,10 @@
 <template>
     <div class="col-md-6 col-lg-4 my-4 row align-items-center">
         <div class="col-4">
-            <img class="img-fluid" :src="guitarra.imagen" alt="imagen guitarra">
+            <img
+                class="img-fluid"
+                :src="'img/' + guitarra.imagen + '.jpg'"
+                :alt="'imagen guitarra' + guitarra.nombre">
         </div>
         <div class="col-8">
             <h3 class="text-black fs-4 fw-bold text-uppercase">{{ guitarra.nombre }}</h3>
